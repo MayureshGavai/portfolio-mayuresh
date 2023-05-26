@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top justify-content-around px-1 navbar-light bg-white">
+            <a class="navbar-brand" href="">
+                <img src="./images/logo.png" alt="logo" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <ul class="navbar-nav d-flex justify-content-around">
+                <li class="nav-item"><a class="nav-link ms-5" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link ms-5" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link ms-5" href="#project">Projects</a></li>
+                <li class="nav-item"><a class="nav-link ms-5" href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="socials d-flex justify-content-around">
+                <a class="nav-link" href="https://www.behance.net/mayureshgavai" target="_blank"><img src="./logos/behance-1.svg"
+                        alt="behance" /></a>
+                <a class="nav-link" href="https://dribbble.com/MayureshG" target="_blank"><img src="./logos/dribbble-icon.svg"
+                        alt="behance" /></a>
+                <a class="nav-link" href="https://github.com/MayureshGavai" target="_blank"><img src="./logos/github-icon-1.svg"
+                        alt="behance" /></a>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="hero m-5" id="home">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="hero-img">
+                <img src="./images/Hero-light img.png" alt="hero-img">
+            </div>
+            <div class="hero-title">
+                <h1>Hello,<br>I am a passionate UI/UX<br>Designer & Frontend Developer</h1>
+                <!-- <button class="btn download-btn">Download CV</button> -->
+                <a class="btn download-btn" href="Mayuresh Resume.pdf" download>Download CV</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h1>About Me</h1>
+        <div class="container d-flex justify-content-start">
+            <div class="about-img">
+                <img src="./images/coding-img.jpg" alt="about-img">
+            </div>
+            <div class="about-nav">
+                <ul class="nav justify-content-around">
+                    <li class="nav-item nav-about" data-attr="experience"><button class="nav-link experience-btn active">Experience</button></li>
+                    <li class="nav-item nav-about" data-attr="education"><button class="nav-link education-btn">Education</button></li>
+                    <li class="nav-item nav-about" data-attr="skills"><button class="nav-link skills-btn">Skills</button></li>
+                </ul>
+
+                <div class="about-content mt-5">
+                    <section class="experience">
+                        <div class="card card-experience">
+                            <div class="card-title d-flex">
+                                <img src="./images/Freelancing.png" alt="">
+                                <div class="title">
+                                    <h1 class="role">UI/UX Designer</h1>
+                                    <h1 class="time">Freelancing ( Mar 2023 - Present )</h1>
+                                </div>
+                            </div>
+                            <p class="card-description">Collaborated with clients, created wireframes and prototypes, designed visually appealing and intuitive user interfaces for mobile apps, and worked
+                                closely with developers for accurate implementation.</p>
+                        </div>
+    
+    
+                        <div class="card card-experience">
+                            <div class="card-title d-flex">
+                                <img src="./images/Jamrio logo.png" alt="">
+                                <div class="title">
+                                    <h1 class="role">UI/UX Designer Intern</h1>
+                                    <h1 class="time">Jamrio Technologies Pvt Ltd, Banglore ( Dec 2022 - Jan 2023 )</h1>
+                                </div>
+                            </div>
+                            <p class="card-description">Conducted research, redesigned website for improved user experience, collaborated with developers for seamless integration, and created promotional banners and social media posts.</p>
+                        </div>
+    
+                        <div class="card card-experience">
+                            <div class="card-title d-flex">
+                                <img src="./images/Rait logo.jpg" alt="">
+                                <div class="title">
+                                    <h1 class="role">Web Developer Internship</h1>
+                                    <h1 class="time">SDG-RAIT ( Jan 2022 - Mar 2022 )</h1>
+                                </div>
+                            </div>
+                            <p class="card-description">Collaborating with the development team to discuss and implement responsive user interface components based on design requirements.</p>
+                        </div>
+
+
+                    </section>
+
+                    <section class="education">
+                        <div class="card card-education">
+                            <div class="card-title d-flex">
+                                <img src="./images/Rait logo.jpg" alt="">
+                                <div class="title">
+                                    <h1 class="degree">B. E. in Computer Science</h1>
+                                    <h1 class="name">Ramrao Adik Institute of Technology, Navi Mumbai</h1>
+                                    <h1 class="year">2018 - 2022</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-education">
+                            <div class="card-title d-flex">
+                                <img src="./images/sri-chaitanya-logo.png" alt="">
+                                <div class="title">
+                                    <h1 class="degree">HSC in Science</h1>
+                                    <h1 class="name">Sri Chaitanya Jr. College, Pune</h1>
+                                    <h1 class="year">2016 - 2018</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="skills">
+                        <div class="card card-skills">
+                            <div class="design">
+                                <h1>Design</h1>
+                                <ul>
+                                    <li>UI/UX Design</li>
+                                    <li>Web & App Design</li>
+                                    <li>Wireframing</li>
+                                    <li>Prototyping</li>
+                                    <li>Mockups</li>
+                                    <li>Banner Design</li>
+                                </ul>
+                            </div>
+                            <div class="frontend">
+                                <h1>Frontend</h1>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+                                    <li>SASS</li>
+                                    <li>Javascript</li>
+                                    <li>Jquery</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="project">
+        <h1>Projects</h1>
+        
+        
+        <!-- <ul class="nav justify-content-between">
+            <li class="nav-item filter" data-attr="all">All</li>
+            <li class="nav-item filter" data-attr="web">Web Development</li>
+            <li class="nav-item filter" data-attr="design">Design</li>
+        </ul> -->
+
+        <div class="container project-container">
+            <div class="card web">
+                <img src="./images/answer-evalution.jpg" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Answer Evalution System</h5>
+                    <span>Python</span><span>MySql</span><span>Flask</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer.</p>
+                    <a href="https://gitlab.com/MayureshGavai/answer-evaluation-system" target="_blank" class="btn btn-success">Source Code</a>
+                </div>
+            </div>
+
+
+            <div class="card web">
+                <img src="./images/carblog.png" class="card-img-top" alt="carblog">
+                <div class="card-body">
+                    <h5 class="card-title">Car Blog</h5>
+                    <span>Nodejs</span><span>MongoDB</span><span>Ejs</span>
+                    <p class="card-text">Project based on the Online Blogging System where users can upload their car reviews, car experiences and comparison between cars.</p>
+                    <a href="https://github.com/MayureshGavai/Car-Blog-App" target="_blank" class="btn btn-success">Source Code</a>
+                </div>
+            </div>
+
+
+            <div class="card web">
+                <img src="./images/resume_builder.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Resume Builder</h5>
+                    <span>Jquery</span><span>Javascript</span><span>Bootstrap</span>
+                    <p class="card-text">The application includes dynamic functionality for form validation, content generation, and interactivity to streamline the resume creation process.</p>
+                    <a href="https://github.com/MayureshGavai/Resume-Builder" target="_blank" class="btn btn-success">Source Code</a>
+                </div>
+            </div>
+
+
+            <div class="card web">
+                <img src="./images/choice.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Choice Wedding Agency</h5>
+                    <span>Html</span><span>CSS</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer. Integrated Features Like User Registration/Login, Admin Login, Question Addition, Answer Checking, Answer Mark Allocation etc.</p>
+                    <a href="https://cheery-concha-f1eee8.netlify.app/index.html" target="_blank" class="btn btn-success">Live Demo</a>
+                </div>
+            </div>
+
+
+            <div class="card web">
+                <img src="./images/backstage.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Backstage Talks Magazine</h5>
+                    <span>HTML</span><span>SCSS</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer. Integrated Features Like User Registration/Login, Admin Login, Question Addition, Answer Checking, Answer Mark Allocation etc.</p>
+                    <a href="https://calm-salmiakki-923f82.netlify.app/" target="_blank" class="btn btn-success">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="card web">
+                <img src="./images/weather-app.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Weather App</h5>
+                    <span>Javascript</span><span>HTML</span><span>CSS</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer. Integrated Features Like User Registration/Login, Admin Login, Question Addition, Answer Checking, Answer Mark Allocation etc.</p>
+                    <a href="https://earnest-begonia-b47349.netlify.app/" target="_blank" class="btn btn-success">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="card design">
+                <img src="./images/Jamrio Thumbnail.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Jamrio Website Redesign</h5>
+                    <span>Figma</span><span>Photopea</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer. Integrated Features Like User Registration/Login, Admin Login, Question Addition, Answer Checking, Answer Mark Allocation etc.</p>
+                    <a href="https://www.behance.net/gallery/170535133/Music-Studio-Booking-Jamrio-Website-Redesign" target="_blank" class="btn btn-success">View Design</a>
+                </div>
+            </div>
+
+            <div class="card design">
+                <img src="./images/Apna-mart.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Apna Mart Grocery App Design</h5>
+                    <span>Figma</span><span>Photoshop</span><span>Balsamiq</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer. Integrated Features Like User Registration/Login, Admin Login, Question Addition, Answer Checking, Answer Mark Allocation etc.</p>
+                    <a href="https://www.behance.net/gallery/170493575/Grocery-Shopping-Apna-Mart-App-UIUX-Case-Study" target="_blank" class="btn btn-success">View Design</a>
+                </div>
+            </div>
+
+            <div class="card design">
+                <img src="./images/prime-time.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Prime Time E-commerce Design</h5>
+                    <span>Adobe XD</span><span>Photopea</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer. Integrated Features Like User Registration/Login, Admin Login, Question Addition, Answer Checking, Answer Mark Allocation etc.</p>
+                    <a href="https://dribbble.com/shots/21154702-Watch-E-Commerce-Product-Design" target="_blank" class="btn btn-success">View Design</a>
+                </div>
+            </div>
+
+
+            <div class="card design">
+                <img src="./images/fashion-atelier.png" class="card-img-top" alt="answer-evalution">
+                <div class="card-body">
+                    <h5 class="card-title">Fashion Atelier E-commerce Design</h5>
+                    <span>Figma</span>
+                    <p class="card-text">This software application is built to check subjective answers in an examination and allocate marks to the user after verifying the answer. Integrated Features Like User Registration/Login, Admin Login, Question Addition, Answer Checking, Answer Mark Allocation etc.</p>
+                    <a href="https://www.behance.net/gallery/155005807/Fashion-Atelier-Clothing-App-Design" target="_blank" class="btn btn-success">View Design</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <div class="container d-flex justify-content-around">
+            <div class="box">
+                <div class="icon">
+                    <img src="./logos/mail.svg" alt="">
+                </div>
+                <div class="text">
+                    <p>Mail</p>
+                    <h4><a href="mailto: mayureshg2912@gmail.com" target="_blank">mayureshg29@gmail.com</a></h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <img src="./logos/phone.svg" alt="">
+                </div>
+                <div class="text">
+                    <p>Phone Number</p>
+                    <h4>9307295935</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <img src="./logos/linkedin-icon-1.svg" alt="">
+                </div>
+                <div class="text">
+                    <p>Linkdin</p>
+                    <h4><a href="https://www.linkedin.com/in/mayuresh-gavai-2609001b5" target="_blank">Mayuresh Gavai</a></h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
